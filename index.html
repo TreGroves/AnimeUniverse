@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-content-stack">
+            <h1 class="main-title" id="hero-title">ANIME UNIVERSE</h1>
+            <p class="about-text">
+                Welcome to my website and the dive into anime genres and things that I like. Theres a lot that you can learn from it as well to get the best entertainment/experience from it as possible. The main thing that i love about anime is the story telling because of how many good things that are made as the story develops. another thing that i like about it is the fighting and action scenes.
+            </p>
+        </div>
+
+        <div class="header-preview-frame" id="battle-frame">
+            <div class="preview-sprite-box">
+                <img src="images/yourname.webp.jpg" alt="Preview Thumbnail" class="preview-thumbnail" id="preview-image">
+            </div>
+        </div>
+
+        <img src="images/mc-goku.png" alt="Goku" class="hidden-mc mc-spot-goku" data-mc-name="Goku">
+    </header>
+
+    <nav class="action-nav">
+        <a href="#big-three" class="nav-btn">The Big Three</a>
+        <a href="#genres" class="nav-btn">Genres</a>
+        <a href="#slideshow-section" class="nav-btn">Favorites</a>
+        <img src="images/mc-deku.png" alt="Deku" class="hidden-mc mc-spot-deku" data-mc-name="Deku">
+    </nav>
+
+    <div class="tracker-banner">
+        <span id="mc-status-msg" class="mc-status-text">Spot all the hidden MCs!</span>
+        <span>Hidden MCs Found: <strong id="global-counter">0</strong> / 7</span>
+    </div>
+
+    <main class="dashboard-layout">
+        
+        <section id="slideshow-section" class="slideshow-wrapper">
+            <h2 class="section-heading-small">Personal Favorites</h2>
+            <div class="slideshow-flex-layout">
+                
+                <div class="slideshow-container">
+                    <div class="slideshow-reel" id="slides-reel">
+                        <div class="slide" style="background-image: url('images/gurrenlagann.webp.jpg');"></div>
+                        <div class="slide" style="background-image: url('images/godofhighschool.webp.jpg');"></div>
+                        <div class="slide" style="background-image: url('images/deathnote.webp.jpg');"></div>
+                        <div class="slide" style="background-image: url('images/aot.webp.jpg');"></div>
+                        <div class="slide" style="background-image: url('images/sololeveling.webp.jpg');"></div>
+                    </div>
+                    
+                    <div class="slideshow-controls">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                        <span class="dot" data-index="4"></span>
+                    </div>
+                </div>
+
+                <div class="slideshow-info-box">
+                    <h3 id="slide-title" class="slide-info-title">Gurren Lagann</h3>
+                    <p id="slide-desc" class="slide-info-body">In a world where humanity is forced to live in deep subterranean villages, a quiet boy named Simon and a boisterous, ambitious man named Kamina unearth a mysterious glowing key and a mini-mecha. Breaking through to the surface, they lead an epic, galaxy-scaling rebellion against the tyrannical Beastmen to claim absolute freedom for humanity.</p>
+                </div>
+
+            </div>
+
+            <img src="images/mc-tanjiro.png" alt="Tanjiro" class="hidden-mc mc-spot-tanjiro" data-mc-name="Tanjiro">
+        </section>
+
+        <section id="genres" class="genre-section-wrapper">
+            <h2 class="section-heading-small">Genres</h2>
+            <div class="genres-flex-layout">
+                
+                <div class="large-manga-panel-grid">
+                    <div class="panel massive-genre-card" data-genre-key="fma" style="background-image: url('images/fma.webp.jpg');"></div>
+                    <div class="panel massive-genre-card" data-genre-key="opm" style="background-image: url('images/opm.webp.jpg');"></div>
+                    <div class="panel massive-genre-card" data-genre-key="codegeass" style="background-image: url('images/codegeass.webp.jpg');"></div>
+                    <div class="panel massive-genre-card" data-genre-key="yourname" style="background-image: url('images/yourname.webp.jpg');"></div>
+                </div>
+
+                <div class="genres-info-side-box-skinny">
+                    <h3 id="genre-panel-title" class="genre-info-title">Explore Genres</h3>
+                    <div id="genre-panel-sub" class="genre-info-sub-title">Pick a Category</div>
+                    <p id="genre-panel-body" class="genre-info-body">Hover over any of the four massive panels on the left to dynamically explore different anime styles, sub-genres, and iconic layout themes.</p>
+                </div>
+
+            </div>
+
+            <img src="images/mc-luffy.png" alt="Luffy" class="hidden-mc mc-spot-luffy" data-mc-name="Luffy">
+        </section>
+
+        <section id="big-three" class="showcase-layer-section">
+            <h2 class="section-heading">The Big Three</h2>
+            <div class="big-three-layout-container">
+                
+                <div class="showcase-container-vertical">
+                    <div class="showcase-card choice-card" data-anime-lore="naruto" style="background-image: url('images/naruto.webp.jpg');"></div>
+                    <div class="showcase-card choice-card" data-anime-lore="onepiece" style="background-image: url('images/onepiece.webp.jpg');"></div>
+                    <div class="showcase-card choice-card" data-anime-lore="bleach" style="background-image: url('images/bleach.webp.jpg');"></div>
+                </div>
+
+                <div class="lore-side-panel">
+                    <h2 id="lore-heading" class="lore-title-font" aria-hidden="true"></h2>
+                    <h3 id="lore-sub" class="lore-sub-font lore-default-title">Big Shonen Legends</h3>
+                    <p id="lore-body" class="lore-body-font">
+                        Naruto, One Piece, and Bleach are famously known as the Big Three. During the early 2000s, these three series dominated the anime industry, breaking global viewership milestones and setting the blueprint for the entire modern supernatural action genre.
+                    </p>
+                </div>
+
+            </div>
+
+            <img src="images/mc-yuji.png" alt="Yuji" class="hidden-mc mc-spot-yuji" data-mc-name="Yuji">
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <h3 class="footer-title">ANIME UNIVERSE</h3>
+            <p class="footer-text">Thanks for exploring my favorite anime series, genres, and Shonen legends. Keep hunting if you haven't found all 7 hidden MCs yet!</p>
+        </div>
+
+        <img src="images/mc-asta.png" alt="Asta" class="hidden-mc mc-spot-asta" data-mc-name="Asta">
+        <img src="images/mc-naruto.png" alt="Naruto" class="hidden-mc mc-spot-naruto" data-mc-name="Naruto">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
