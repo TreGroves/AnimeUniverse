@@ -194,6 +194,13 @@ body {
     font-size: 1.3rem;
 }
 
+.mc-count-numbers {
+    font-family: 'SekuyaLocal', 'Segoe UI', sans-serif;
+    font-size: 1.05rem;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
 .tracker-banner strong {
     color: var(--accent-orange);
     font-weight: normal;
@@ -456,15 +463,14 @@ body {
     color: #ffffff;
     font-size: 1.35rem;
     line-height: 1.7;
-    font-weight: normal;
-    letter-spacing: 0.5px;
+font-weight: normal;
+letter-spacing: 0.5px;
 }
-
 .site-footer {
-    position: relative;
-    background: #16213e;
-    border-top: 6px solid var(--accent-orange);
-    padding: 50px 20px;
+position: relative;
+background: #16213e;
+border-top: 6px solid var(--accent-orange);
+padding: 50px 20px;
 margin-top: 40px;
 text-align: center;
 z-index: 3;
