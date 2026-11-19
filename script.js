@@ -182,10 +182,10 @@ const previewImage = document.getElementById('preview-image');
 const battleFrame = document.getElementById('battle-frame');
 
 const genreImagesDatabase = {
-    fma: 'images/fma.webp.jpg',
-    opm: 'images/opm.webp.jpg',
-    codegeass: 'images/codegeass.webp.jpg',
-    yourname: 'images/yourname.webp.jpg'
+    fma: 'Images/fma.webp.jpg',
+    opm: 'Images/opm.webp.jpg',
+    codegeass: 'Images/codegeass.webp.jpg',
+    yourname: 'Images/yourname.webp.jpg'
 };
 
 genreCards.forEach(card => {

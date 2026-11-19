@@ -89,7 +89,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 60px;
-    background: linear-gradient(135deg, rgba(26, 26, 46, 0.8) 0%, rgba(22, 33, 62, 0.85) 100%), url('images/collage.png.jpg');
+    background: linear-gradient(135deg, rgba(26, 26, 46, 0.8) 0%, rgba(22, 33, 62, 0.85) 100%), url('Images/collage.png.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 8px solid var(--accent-orange);
